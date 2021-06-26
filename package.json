@@ -1,0 +1,43 @@
+{
+  "name": "@eb3n/anime",
+  "version": "0.0.0",
+  "description": "Minimal animate on scroll library",
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebxn/anime.git"
+  },
+  "main": "dist/index.js",
+  "style": "dist/anime.min.css",
+  "module": "dist/anime.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "author": "eb3n",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "~2.2.x",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.4"
+  }
+}
