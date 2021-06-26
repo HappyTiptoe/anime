@@ -8,7 +8,7 @@
     "postbuild": "cp src/*.css dist",
     "test": "tsdx test",
     "lint": "tsdx lint",
-    "prepare": "tsdx build"
+    "prepare": "tsdx build && cp src/*.css dist"
   },
   "repository": {
     "type": "git",
