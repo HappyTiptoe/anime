@@ -56,7 +56,7 @@ function activateAnimations(els: AnimeExtendedElement[]): void {
   })
 }
 
-export function anime(config: AnimeConfig = {}): void {
+export default function anime(config: AnimeConfig = {}): void {
   const options = { ...DEFAULT_CONFIG, config } as AnimeOptions
   const els = Array.from(document.querySelectorAll('[anime]'))
   let scrollListener: EventListener
