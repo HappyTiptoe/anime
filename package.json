@@ -1,6 +1,6 @@
 {
   "name": "@eb3n/anime",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Minimal animate on scroll library",
   "scripts": {
     "start": "tsdx watch",
