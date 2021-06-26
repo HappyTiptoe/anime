@@ -1,0 +1,179 @@
+@media (prefers-reduced-motion: reduce) {
+  [class^='anime'] {
+    transition-duration: 1ms;
+  }
+}
+
+/* fade */
+[class^='anime-fade'] {
+  opacity: 0;
+  transition-property: opacity, transform;
+}
+[class^='anime-fade'].anime-active {
+  opacity: 1;
+  transform: none;
+}
+.anime-fade-up {
+  transform: translate(0, 50px);
+}
+.anime-fade-down {
+  transform: translate(0, -50px);
+}
+.anime-fade-right {
+  transform: translate(-50px, 0);
+}
+.anime-fade-left {
+  transform: translate(50px, 0);
+}
+
+/* zoom */
+[class^='anime-zoom'] {
+  opacity: 0;
+  transition-property: opacity, transform;
+}
+[class^='anime-zoom'].anime-active {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+.anime-zoom-in {
+  transform: scale(0.6);
+}
+.anime-zoom-in-up {
+  transform: translate(0, 50px) scale(0.6);
+}
+.anime-zoom-in-down {
+  transform: translate(0, -50px) scale(0.6);
+}
+.anime-zoom-in-right {
+  transform: translate(-50px, 0) scale(0.6);
+}
+.anime-zoom-in-left {
+  transform: translate(50px, 0) scale(0.6);
+}
+.anime-zoom-out {
+  transform: scale(1.2);
+}
+.anime-zoom-out-up {
+  transform: translate(0, 50px) scale(1.2);
+}
+.anime-zoom-out-down {
+  transform: translate(0, -50px) scale(1.2);
+}
+.anime-zoom-out-right {
+  transform: translate(-50px, 0) scale(1.2);
+}
+.anime-zoom-out-left {
+  transform: translate(50px, 0) scale(1.2);
+}
+
+/* flip */
+[class^='anime-flip'] {
+  backface-visibility: hidden;
+  transition-property: transform;
+}
+.anime-flip-left {
+  transform: perspective(2500px) rotateY(-90deg);
+}
+.anime-flip-left.anime-active {
+  transform: perspective(2500px) rotateY(0);
+}
+.anime-flip-right {
+  transform: perspective(2500px) rotateY(90deg);
+}
+.anime-flip-right.anime-active {
+  transform: perspective(2500px) rotateY(0);
+}
+.anime-flip-up {
+  transform: perspective(2500px) rotateX(-90deg);
+}
+.anime-flip-up.anime-active {
+  transform: perspective(2500px) rotateX(0);
+}
+.anime-flip-down {
+  transform: perspective(2500px) rotateX(90deg);
+}
+.anime-flip-down.anime-active {
+  transform: perspective(2500px) rotateX(0);
+}
+
+/* duration */
+.anime-duration-0 {
+  transition-duration: 0ms;
+}
+.anime-duration-250 {
+  transition-duration: 250ms;
+}
+.anime-duration-500 {
+  transition-duration: 500ms;
+}
+.anime-duration-750 {
+  transition-duration: 750ms;
+}
+.anime-duration-1000 {
+  transition-duration: 1000ms;
+}
+.anime-duration-1250 {
+  transition-duration: 1250ms;
+}
+.anime-duration-1500 {
+  transition-duration: 1500ms;
+}
+.anime-duration-1750 {
+  transition-duration: 1750ms;
+}
+.anime-duration-2000 {
+  transition-duration: 2000ms;
+}
+.anime-duration-2250 {
+  transition-duration: 2250ms;
+}
+.anime-duration-2500 {
+  transition-duration: 2500ms;
+}
+.anime-duration-2750 {
+  transition-duration: 2750ms;
+}
+.anime-duration-3000 {
+  transition-duration: 3000ms;
+}
+
+/* delay */
+.anime-delay-0 {
+  transition-delay: 0ms;
+}
+.anime-delay-250 {
+  transition-delay: 250ms;
+}
+.anime-delay-500 {
+  transition-delay: 500ms;
+}
+.anime-delay-750 {
+  transition-delay: 750ms;
+}
+.anime-delay-1000 {
+  transition-delay: 1000ms;
+}
+.anime-delay-1250 {
+  transition-delay: 1250ms;
+}
+.anime-delay-1500 {
+  transition-delay: 1500ms;
+}
+.anime-delay-1750 {
+  transition-delay: 1750ms;
+}
+.anime-delay-2000 {
+  transition-delay: 2000ms;
+}
+.anime-delay-2250 {
+  transition-delay: 2250ms;
+}
+.anime-delay-2500 {
+  transition-delay: 2500ms;
+}
+.anime-delay-2750 {
+  transition-delay: 2750ms;
+}
+.anime-delay-3000 {
+  transition-delay: 3000ms;
+}
