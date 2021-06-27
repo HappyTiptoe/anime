@@ -6,7 +6,7 @@ Minimal animate on scroll library.
   <img src="https://img.shields.io/npm/v/@eb3n/anime" alt="npm version">
 </a>
 <a href="https://npmjs.com/package/@eb3n/anime">
-  <img src="https://img.shields.io/npm/l/@eb3n/anime" alt="npm version">
+  <img src="https://img.shields.io/npm/l/@eb3n/anime" alt="license">
 </a>
 
 ## Installation
